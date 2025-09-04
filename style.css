@@ -66,6 +66,13 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
+.section-content img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
 /* Estilo da seção IA */
 .bg-light {
     background-color: #f9f9f9;
@@ -97,9 +104,9 @@ nav ul li a {
 
 iframe {
     width: 100%;
-    max-width: 560px;
     height: 315px;
     border-radius: 8px;
+    margin-top: 20px;
 }
 
 /* Rodapé */
@@ -131,5 +138,10 @@ footer p {
     nav ul li {
         display: block;
         margin: 10px 0;
+    }
+
+    .section-content img {
+        max-width: 100%;
+        margin-top: 20px;
     }
 }
