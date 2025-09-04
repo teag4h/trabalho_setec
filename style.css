@@ -1,4 +1,4 @@
-/* Resetando algumas propriedades padrão */
+/* Resetando as propriedades padrão */
 * {
     margin: 0;
     padding: 0;
@@ -6,22 +6,30 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
     color: #333;
     line-height: 1.6;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Cabeçalho */
 header {
     background-color: #6a1b9a; /* Roxo escuro */
     color: white;
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 10px;
 }
 
@@ -41,52 +49,53 @@ nav ul li a {
     font-size: 1.1em;
 }
 
-/* Layout das Seções */
-.section-container {
-    padding: 40px 20px;
-    margin-bottom: 40px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+/* Seções */
+.section {
+    padding: 60px 0;
 }
 
-.section-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-h2 {
-    font-size: 2.5em;
-    color: #6a1b9a; /* Roxo escuro */
-    margin-bottom: 20px;
+.section-header h2 {
     text-align: center;
+    font-size: 2.5em;
+    color: #6a1b9a;
+    margin-bottom: 30px;
 }
 
-p {
+.section-content p {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 
-/* Estilo das seções específicas */
+/* Estilo da seção IA */
+.bg-light {
+    background-color: #f9f9f9;
+}
+
+.tema-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
 .tema {
-    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .tema h3 {
     font-size: 1.8em;
-    color: #6a1b9a; /* Roxo escuro */
+    color: #6a1b9a;
     margin-bottom: 10px;
 }
 
 .tema p {
     font-size: 1.1em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-/* Vídeos */
 iframe {
-    margin-top: 20px;
     width: 100%;
     max-width: 560px;
     height: 315px;
@@ -97,10 +106,30 @@ iframe {
 footer {
     background-color: #333;
     color: white;
+    padding: 40px 0;
     text-align: center;
-    padding: 20px;
 }
 
 footer p {
-    font-size: 1em;
+    font-size: 1.1em;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .tema-list {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    .section-header h2 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
