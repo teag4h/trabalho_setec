@@ -4,73 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Desenvolvimento de Sistemas & IA</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- Cabeçalho -->
     <header>
-        <h1>Curso de Desenvolvimento de Sistemas</h1>
-        <nav>
-            <ul>
-                <li><a href="#sessao1">Curso DS</a></li>
-                <li><a href="#sessao2">IA - Temas</a></li>
-                <li><a href="#sessao3">SETec</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Curso de Desenvolvimento de Sistemas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sessao1">Curso DS</a></li>
+                    <li><a href="#sessao2">IA - Temas</a></li>
+                    <li><a href="#sessao3">SETec</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- Sessão 1: Curso DS -->
-    <section id="sessao1" class="section-container">
-        <div class="section-content">
-            <h2>Curso de Desenvolvimento de Sistemas</h2>
-            <p>O curso de Desenvolvimento de Sistemas (DS) prepara profissionais para criar, manter e otimizar sistemas e soluções tecnológicas. Durante o curso, o estudante aprende várias linguagens de programação, como Java, Python e JavaScript, além de conceitos fundamentais de análise e modelagem de sistemas.</p>
-            <img src="imagens/curso_ds.jpg" alt="Imagem de Desenvolvimento de Sistemas" />
+    <section id="sessao1" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Curso de Desenvolvimento de Sistemas</h2>
+            </div>
+            <div class="section-content">
+                <p>O curso de Desenvolvimento de Sistemas (DS) prepara profissionais para criar, manter e otimizar sistemas e soluções tecnológicas. Durante o curso, o estudante aprende várias linguagens de programação, como Java, Python e JavaScript, além de conceitos fundamentais de análise e modelagem de sistemas.</p>
+                <img src="imagens/curso_ds.jpg" alt="Imagem de Desenvolvimento de Sistemas" />
+            </div>
         </div>
     </section>
 
     <!-- Sessão 2: Temas sobre IA -->
-    <section id="sessao2" class="section-container">
-        <div class="section-content">
-            <h2>Inteligência Artificial - Temas</h2>
-            <div class="tema">
-                <h3>1. Redes Neurais Artificiais</h3>
-                <p>Redes neurais são modelos computacionais inspirados no cérebro humano, usados para resolver problemas como reconhecimento de imagem, tradução automática, entre outros.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dnTsyAnb9XY" title="Redes Neurais Artificiais" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section id="sessao2" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Inteligência Artificial - Temas</h2>
             </div>
+            <div class="tema-list">
+                <div class="tema">
+                    <h3>1. Redes Neurais Artificiais</h3>
+                    <p>Redes neurais são modelos computacionais inspirados no cérebro humano, usados para resolver problemas como reconhecimento de imagem, tradução automática, entre outros.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dnTsyAnb9XY" title="Redes Neurais Artificiais" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 
-            <div class="tema">
-                <h3>2. Aprendizado de Máquina (Machine Learning)</h3>
-                <p>O Aprendizado de Máquina é uma subárea da IA onde algoritmos aprendem a partir de dados, sem necessidade de programação explícita. É fundamental em aplicações como recomendação de produtos e assistentes virtuais.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ukzFI9rgwfU" title="Aprendizado de Máquina" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+                <div class="tema">
+                    <h3>2. Aprendizado de Máquina (Machine Learning)</h3>
+                    <p>O Aprendizado de Máquina é uma subárea da IA onde algoritmos aprendem a partir de dados, sem necessidade de programação explícita. É fundamental em aplicações como recomendação de produtos e assistentes virtuais.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ukzFI9rgwfU" title="Aprendizado de Máquina" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 
-            <div class="tema">
-                <h3>3. Processamento de Linguagem Natural (PLN)</h3>
-                <p>O PLN é um campo da IA focado em permitir que as máquinas compreendam, interpretem e respondam à linguagem humana. Usado em chatbots, assistentes virtuais, entre outros.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/7Jtptg2doD0" title="Processamento de Linguagem Natural" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+                <div class="tema">
+                    <h3>3. Processamento de Linguagem Natural (PLN)</h3>
+                    <p>O PLN é um campo da IA focado em permitir que as máquinas compreendam, interpretem e respondam à linguagem humana. Usado em chatbots, assistentes virtuais, entre outros.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Jtptg2doD0" title="Processamento de Linguagem Natural" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 
-            <div class="tema">
-                <h3>4. Visão Computacional</h3>
-                <p>A Visão Computacional envolve a utilização de algoritmos para que as máquinas interpretem e compreendam o mundo visual. É amplamente aplicada em reconhecimento facial e análise de imagens médicas.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Py7YNvsdH5s" title="Visão Computacional" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="tema">
+                    <h3>4. Visão Computacional</h3>
+                    <p>A Visão Computacional envolve a utilização de algoritmos para que as máquinas interpretem e compreendam o mundo visual. É amplamente aplicada em reconhecimento facial e análise de imagens médicas.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Py7YNvsdH5s" title="Visão Computacional" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Sessão 3: Tema para SETec -->
-    <section id="sessao3" class="section-container">
-        <div class="section-content">
-            <h2>Possível Tema para a Semana de Tecnologia (SETec)</h2>
-            <p>Uma excelente ideia para a SETec seria abordar o impacto da IA na automação de processos. Como as tecnologias emergentes, como aprendizado de máquina e redes neurais, podem otimizar indústrias e melhorar a qualidade de vida das pessoas.</p>
-            <img src="imagens/setec_tema.jpg" alt="Tema para SETec" />
+    <section id="sessao3" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Possível Tema para a Semana de Tecnologia (SETec)</h2>
+            </div>
+            <div class="section-content">
+                <p>Uma excelente ideia para a SETec seria abordar o impacto da IA na automação de processos. Como as tecnologias emergentes, como aprendizado de máquina e redes neurais, podem otimizar indústrias e melhorar a qualidade de vida das pessoas.</p>
+                <img src="imagens/setec_tema.jpg" alt="Tema para SETec" />
+            </div>
         </div>
     </section>
 
     <!-- Rodapé -->
     <footer>
-        <p>&copy; 2025 Curso de Desenvolvimento de Sistemas e IA. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2025 Curso de Desenvolvimento de Sistemas e IA. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
 </body>
