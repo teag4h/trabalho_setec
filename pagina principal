@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Desenvolvimento de Sistemas & IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Curso de Desenvolvimento de Sistemas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#curso-ds">Curso DS</a></li>
+                    <li><a href="#ia-temas">IA - Temas</a></li>
+                    <li><a href="#setec">SETec</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="curso-ds" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Curso de Desenvolvimento de Sistemas</h2>
+            </div>
+            <div class="section-content">
+                <p>O curso de Desenvolvimento de Sistemas (DS) prepara profissionais para criar, manter e otimizar sistemas e soluções tecnológicas. Durante o curso, o estudante aprende várias linguagens de programação, como Java, Python e JavaScript, além de conceitos fundamentais de análise e modelagem de sistemas.</p>
+                <img src="imagens/curso_ds.jpg" alt="Imagem de Desenvolvimento de Sistemas" />
+            </div>
+        </div>
+    </section>
+
+    <section id="ia-temas" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Inteligência Artificial - Temas</h2>
+            </div>
+            <div class="tema-list">
+                <div class="tema">
+                    <h3>1. Redes Neurais Artificiais</h3>
+                    <p>Modelos computacionais inspirados no cérebro humano, usados para resolver problemas complexos como reconhecimento de imagem. <a href="redes-neurais.html">Saiba mais aqui.</a></p>
+                </div>
+                <div class="tema">
+                    <h3>2. Aprendizado de Máquina (Machine Learning)</h3>
+                    <p>Algoritmos que aprendem a partir de dados para fazer previsões e tomar decisões, sem programação explícita. <a href="machine-learning.html">Saiba mais aqui.</a></p>
+                </div>
+                <div class="tema">
+                    <h3>3. Processamento de Linguagem Natural (PLN)</h3>
+                    <p>Permite que as máquinas compreendam, interpretem e respondam à linguagem humana. <a href="pln.html">Saiba mais aqui.</a></p>
+                </div>
+                <div class="tema">
+                    <h3>4. Visão Computacional</h3>
+                    <p>Utiliza algoritmos para que as máquinas interpretem e compreendam o mundo visual. <a href="visao-computacional.html">Saiba mais aqui.</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="setec" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Possível Tema para a Semana de Tecnologia (SETec)</h2>
+            </div>
+            <div class="section-content">
+                <p>Uma excelente ideia para a SETec seria abordar o impacto da IA na automação de processos. Como as tecnologias emergentes, como aprendizado de máquina e redes neurais, podem otimizar indústrias e melhorar a qualidade de vida das pessoas.</p>
+                <img src="imagens/setec_tema.jpg" alt="Tema para SETec" />
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Curso de Desenvolvimento de Sistemas e IA. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
