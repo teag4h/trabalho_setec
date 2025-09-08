@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f3f3f3;
+    background-color: #d1c4e9; /* Roxo claro para o fundo da página */
     color: #333;
     line-height: 1.6;
 }
@@ -71,6 +71,11 @@ nav ul li a {
     max-width: 600px;
     border-radius: 10px;
     margin-top: 30px;
+}
+
+/* Fundo cinza para a seção de Desenvolvimento de Sistemas */
+#curso-ds {
+    background-color: #e8e8e8; /* Cinza para esta seção específica */
 }
 
 /* Estilo da seção IA */
