@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Neurais Artificiais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Redes Neurais Artificiais</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html#curso-ds">Curso DS</a></li>
+                    <li><a href="index.html#ia-temas">IA - Temas</a></li>
+                    <li><a href="index.html#setec">SETec</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entendendo as Redes Neurais</h2>
+            </div>
+            <div class="section-content">
+                <p>As redes neurais artificiais são um dos pilares da inteligência artificial moderna. Inspiradas no funcionamento do cérebro humano, elas são compostas por camadas de "neurônios" interconectados que processam informações. Cada neurônio recebe dados de entrada, os processa e repassa para a próxima camada, aprendendo e ajustando suas conexões ao longo do tempo para se tornarem mais precisas.</p>
+                <p>Elas são amplamente utilizadas em tarefas de reconhecimento de padrões, como identificar objetos em imagens, traduzir textos automaticamente e até mesmo prever tendências de mercado. Sua capacidade de aprender a partir de grandes volumes de dados as torna incrivelmente poderosas.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/J0gMAVtaVDc?si=GzbycziCecWSwrpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Curso de Desenvolvimento de Sistemas e IA. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
